@@ -1,7 +1,7 @@
 # PhxSaas
 
 Easy SaaS for Phoenix/Ecto.
-Base form PhxSaas
+Base form Apartmentex
 
 In this branch, the following versions are supported:
 * Ecto >= 2.2.6
