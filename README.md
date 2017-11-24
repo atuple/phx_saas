@@ -23,7 +23,7 @@ database for MySQL
 
 - You can also configure your tenant schema prefix, adding this to your application configs:
 ```elixir
-config :PhxSaas, schema_prefix: "prefix_" # the default prefix is "tenant_"
+config :phx_saas, schema_prefix: "prefix_" # the default prefix is "tenant_"
 ```
 
 ### Use
