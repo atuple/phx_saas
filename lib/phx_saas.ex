@@ -13,7 +13,7 @@ defmodule PhxSaas do
   end
 
   @doc """
-  Implementation for `Apartmentex.get/5`
+  Implementation for `PhxSaas.get/5`
   """
   def get(repo, queryable, id, tenant, opts \\ []) do
     queryable
@@ -22,7 +22,7 @@ defmodule PhxSaas do
   end
 
   @doc """
-  Implementation for `Apartmentex.get!/5`
+  Implementation for `PhxSaas.get!/5`
   """
   def get!(repo, queryable, id, tenant, opts \\ []) do
     queryable
@@ -43,7 +43,7 @@ defmodule PhxSaas do
   end
 
   @doc """
-  Implementation for `Apartmentex.one/4`
+  Implementation for `PhxSaas.one/4`
   """
   def one(repo, queryable, tenant, opts \\ []) do
     queryable
@@ -52,7 +52,7 @@ defmodule PhxSaas do
   end
 
   @doc """
-  Implementation for `Apartmentex.one!/4`
+  Implementation for `PhxSaas.one!/4`
   """
   def one!(repo, queryable, tenant, opts \\ []) do
     queryable
@@ -63,7 +63,7 @@ defmodule PhxSaas do
   #model derived functions
 
    @doc """
-  Implementation for `Apartmentex.insert/4`.
+  Implementation for `PhxSaas.insert/4`.
   """
   def insert(repo, model_or_changeset, tenant, opts \\ []) do
     model_or_changeset
@@ -78,7 +78,7 @@ defmodule PhxSaas do
   end
 
   @doc """
-  Implementation for `Apartmentex.update!/4`.
+  Implementation for `PhxSaas.update!/4`.
   """
   def update(repo, model_or_changeset, tenant, opts \\ []) do
     model_or_changeset
@@ -93,7 +93,7 @@ defmodule PhxSaas do
   end
 
   @doc """
-  Runtime callback for `Apartmentex.update_all/5`
+  Runtime callback for `PhxSaas.update_all/5`
   """
   def update_all(repo, queryable, updates, tenant, opts \\ []) do
     queryable
@@ -102,7 +102,7 @@ defmodule PhxSaas do
   end
 
   @doc """
-  Implementation for `Apartmentex.insert_or_update/4`.
+  Implementation for `PhxSaas.insert_or_update/4`.
   """
   def insert_or_update(repo, model_or_changeset, tenant, opts \\ []) do
     model_or_changeset
@@ -111,7 +111,7 @@ defmodule PhxSaas do
   end
 
   @doc """
-  Implementation for `Apartmentex.insert_or_update!/4`.
+  Implementation for `PhxSaas.insert_or_update!/4`.
   """
   def insert_or_update!(repo, model_or_changeset, tenant, opts \\ []) do
     model_or_changeset
@@ -120,7 +120,7 @@ defmodule PhxSaas do
   end
 
   @doc """
-  Implementation for `Apartmentex.delete/4`.
+  Implementation for `PhxSaas.delete/4`.
   """
   def delete(repo, model_or_changeset, tenant, opts \\ []) do
     model_or_changeset
@@ -129,7 +129,7 @@ defmodule PhxSaas do
   end
 
   @doc """
-  Implementation for `Apartmentex.delete!/4`.
+  Implementation for `PhxSaas.delete!/4`.
   """
   def delete!(repo, model_or_changeset, tenant, opts \\ []) do
     model_or_changeset
@@ -138,7 +138,7 @@ defmodule PhxSaas do
   end
 
   @doc """
-  Implementation for `Apartmentex.delete_all/4`
+  Implementation for `PhxSaas.delete_all/4`
   """
   def delete_all(repo, queryable, tenant, opts \\ []) do
     queryable
